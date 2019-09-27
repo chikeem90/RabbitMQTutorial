@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Profile;
 public class Tut1Config {
     @Bean
     public Queue hello() {
-        return new Queue("helloQueue");
+        return new Queue("hello");
     }
 
     @Profile("receiver")
